@@ -76,7 +76,7 @@ ul.menu li a:hover{
 
 .banner {
     height: 866px;
-    background: url("../../images/shadow.png") no-repeat center top / cover;
+    background: url("../images/shadow.png") no-repeat center top / cover;
 }
 
 .check_services{
@@ -117,7 +117,7 @@ ul.menu li a:hover{
     width: 234px;
     height: 87px;
     display: block;
-    background: url("../../images/Rectangle_816.png") no-repeat;
+    background: url("../images/Rectangle_816.png") no-repeat;
     padding-top: 32px;
     padding-left: 55px;
     padding-bottom: 40px;
@@ -205,7 +205,7 @@ ul.menu li a:hover{
 }
 
 .Accept_but{
-    background: url("../../images/Rectangle_578.png");
+    background: url("../images/Rectangle_578.png");
     width: 110px;
     padding-left: 10px;
     height: 36px;
@@ -348,7 +348,7 @@ ul.menu li a:hover{
 .works_with_you {
     margin-top: 80px;
     height: 400px;
-    background: url("../../images/shadow2.psb.png") no-repeat center top / cover;
+    background: url("../images/shadow2.psb.png") no-repeat center top / cover;
 }
 
 .works_with_you p {
@@ -440,7 +440,7 @@ ul.menu li a:hover{
 
 .company {
     height: 370px;
-    background: url("../../images/shadow2.psb.png") no-repeat center top / cover;
+    background: url("../images/shadow2.psb.png") no-repeat center top / cover;
 }
 
 .company h1 {
@@ -578,7 +578,7 @@ ul.menu li a:hover{
     margin-left: 220px;
     width: 243px;
     height: 87px;
-    background: url("../../images/Rectangle_816_orange.png") no-repeat;
+    background: url("../images/Rectangle_816_orange.png") no-repeat;
     color: #ff551d;
     font-family: "Sofia Pro Regular", serif;
     font-size: 20px;
@@ -589,7 +589,7 @@ ul.menu li a:hover{
 .Industries {
     height: 1223px;
     position: relative;
-    background: #f2f2f2 url("../../images/25068.png") no-repeat center;
+    background: #f2f2f2 url("../images/25068.png") no-repeat center;
 
 }
 
@@ -750,7 +750,7 @@ ul.menu li a:hover{
     position: relative;
     display: flex;
     flex-direction: row;
-    background: url("../../images/pexels-photo-41227.png") no-repeat center top;
+    background: url("../images/pexels-photo-41227.png") no-repeat center top;
 }
 
 .fon {
@@ -821,7 +821,7 @@ input{
     font-size: 17px;
     width: 234px;
     height: 85px;
-    background: url("../../images/Rectangle_816.png") no-repeat;
+    background: url("../images/Rectangle_816.png") no-repeat;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -950,7 +950,7 @@ input{
     position: relative;
     display: flex;
     flex-direction: row;
-    background: url("../../images/carousel_bgi_3.png") no-repeat center top;
+    background: url("../images/carousel_bgi_3.png") no-repeat center top;
 }
 
 .leading_content {
@@ -1137,7 +1137,7 @@ input{
 }
 
 .new_level {
-    background: #010101 url("../../images/with_gaussian_blur.png") no-repeat center;
+    background: #010101 url("../images/with_gaussian_blur.png") no-repeat center;
     height: 370px;
     position: relative;
 }
@@ -1168,7 +1168,7 @@ input{
 .bus_lvl_item a{
     width: 234px;
     height: 87px;
-    background: url("../../images/Rectangle_816.png") no-repeat;
+    background: url("../images/Rectangle_816.png") no-repeat;
     padding-top: 32px;
     padding-left: 65px;
     text-decoration: none;
