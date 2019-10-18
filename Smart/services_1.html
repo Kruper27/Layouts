@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="asserts/css/style.css">
     <link rel="stylesheet" href="asserts/css/fonts/stylesheet.css">
     <link rel="stylesheet" href="asserts/css/css-social-buttons/social-buttons.css">
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
 <div class="main">
@@ -25,50 +31,8 @@
         </div>
     </div>
     <div class="content">
-        <section>
-            <div class="leading">
-                <div class="leading_content">
-                    <div class="tit">
-                        <h1> <b>Leading Web And Software Development Company </b> </h1>
-                    </div>
-                    <div class="lead_items">
-                        <div class="lead_block">
-                            <img src="asserts/images/favorites.png" alt="">
-                            <p>     86 + Skilled Developers</p>
-                        </div>
 
-                        <div class="lead_block">
-                            <img src="asserts/images/settings.png" alt="">
-                            <p>     Full-cycle support </p>
-                        </div>
-
-                        <div class="lead_block">
-                            <img src="asserts/images/post.png" alt="">
-                            <p>     Daily reports </p>
-                        </div>
-                    </div>
-                    
-                    <div class="lead_chat">
-                        <a href="#"> <img src="asserts/images/chat_icon.png" alt=""> </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="prof_out">
-                <div class="title">
-                    <h2><b> Professional Outsource Website Development Company </b></h2>
-                    <p>Enjoy the work with the high-quality experts in web development</p>
-                </div>
-                <div class="prof_content">
-                    <p>	<span> SmartExe </span> software and web development company have 14 years' experience behind, we`ve performed
-                        various projects, from simple personal one web page site to eCommerce website design &
-                        development. We create a website from scratch and provide full-cycle project support.
-                    </p>
-                </div>
-            </div>
-        </section>
+        <div   id="root"></div>
 
         <section>
             <div class="business">
@@ -371,8 +335,8 @@
 
             <div class="foot_icons">
                 <a href="#" class="sb min gray facebook">  </a>
-                <a href="#" class="sb min  gray twitter"></a>
-                <a href="#" class="sb min   gray linkedin"></a>
+                <a href="#" class="sb min  gray twitter">   </a>
+                <a href="#" class="sb min   gray linkedin"> </a>
             </div>
 
             <div class="foot_org">
@@ -381,5 +345,7 @@
         </div>
     </div>
 </div>
+
+<script type="text/babel" src="Components/services_components/App.js"></script>
 </body>
 </html>
