@@ -1,4 +1,4 @@
-class Professional extends React.Component {
+export default class Professional extends React.Component {
     render() {
         return (
             <div className="prof_out">
@@ -18,4 +18,3 @@ class Professional extends React.Component {
     }
 }
 
-export default Professional;
