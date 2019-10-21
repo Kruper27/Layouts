@@ -34,8 +34,15 @@ build/Release
 
 # Dependency directories
 node_modules/
-jspm_packages/
-.idea/
+.tmp/
+public/index.html
+
+
+### Commit specific idea files
+.idea/*
+!.idea/inspectionProfiles
+.idea/inspectionProfiles/*
+!.idea/inspectionProfiles/Project_Default.xml
 # TypeScript v1 declaration files
 typings/
 
